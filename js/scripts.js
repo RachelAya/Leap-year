@@ -7,7 +7,15 @@ $(document).ready(function() {
     });
   });
 
-  var leapYear = function(year) {
+  var leapYear = function(year)
+{
+    if (year % 4 === 0)
+    {
+      return true;
+    }
+    else
+    {
       return false;
-    };
+    }
+};
 // jQuery user interface logic here.
